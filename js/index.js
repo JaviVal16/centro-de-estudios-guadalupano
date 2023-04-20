@@ -1,5 +1,3 @@
-
-
 /* function pageTransition() {
     let tl = gsap.timeline();
     tl.to('.transition li', { duration: .4, scaleY: 1, transformOrigin: 'top left', stagger: .2 });
@@ -55,10 +53,6 @@ barba.init({
             },
         },
     ],
-});
-
-barba.hooks.after(async () => {
-    await restartWebflow();
 });
 
 
